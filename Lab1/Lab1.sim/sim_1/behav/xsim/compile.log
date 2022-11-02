@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/duggie/Desktop/Lab1/WLA1.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module WLA1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/duggie/Desktop/Lab1/WLA2.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module WLA2
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/duggie/Desktop/Lab1/WLA_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module WLA_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/duggie/Desktop/Lab1/WLA_sim.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module WLA_sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/duggie/CPE133/Lab1/Lab1.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

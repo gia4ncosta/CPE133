@@ -1,0 +1,9 @@
+0.7
+2020.2
+Apr 18 2022
+16:05:34
+C:/Users/duggie/CPE133/Lab1/Lab1.sim/sim_1/behav/xsim/glbl.v,1649976174,verilog,,,,glbl,,uvm,,,,,,
+C:/Users/duggie/Desktop/Lab1/WLA1.sv,1665429414,systemVerilog,,C:/Users/duggie/Desktop/Lab1/WLA2.sv,,WLA1,,uvm,,,,,,
+C:/Users/duggie/Desktop/Lab1/WLA2.sv,1665429414,systemVerilog,,C:/Users/duggie/Desktop/Lab1/WLA_top.sv,,WLA2,,uvm,,,,,,
+C:/Users/duggie/Desktop/Lab1/WLA_sim.sv,1665444327,systemVerilog,,,,WLA_sim,,uvm,,,,,,
+C:/Users/duggie/Desktop/Lab1/WLA_top.sv,1665127903,systemVerilog,,C:/Users/duggie/Desktop/Lab1/WLA_sim.sv,,WLA_top,,uvm,,,,,,

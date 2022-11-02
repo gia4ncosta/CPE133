@@ -1,0 +1,9 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"WLA_sim_func_synth.v" \
+
+sv xil_defaultlib  \
+"../../../../../../../Desktop/Lab1/WLA_sim.sv" \
+
+# Do not sort compile order
+nosort
