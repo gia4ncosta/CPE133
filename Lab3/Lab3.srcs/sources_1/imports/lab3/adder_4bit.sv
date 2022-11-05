@@ -22,12 +22,14 @@ module Adder_4bit(
 	logic  C5;
 	
 	
-	logic [5:0]A6;
+
 	logic [5:0]B6;
 	logic [5:0]B6bar;
 	logic [5:0]Bout; //mux output
 	
-	assign B6bar = {1'b1, 1'b1, ~B[3:0]};
+
+    //sign extension for B and inputs for mux
+	assign B6bar = {1'b1, 1'b1, ~B[3:0]}; //negated B for subtraction
 	assign B6 = {1'b0, 1'b0, B[3:0]};
 	
 	MUX mux(
@@ -71,8 +73,10 @@ module Adder_4bit(
 	.Cout(C4)
 	);
 	
+	// two extra full adders
+	
 	Full_Adder FA4(
-	.A(A[4]),
+	.A(1'b0),
 	.B(Bout[4]),
 	.Cin(C4),
 	.S(S[4]),
@@ -80,22 +84,12 @@ module Adder_4bit(
 	);
 	
 	Full_Adder FA5(
-	.A(A[5]),
+	.A(1'b0),
 	.B(Bout[5]),
 	.Cin(C5),
 	.S(S[5]),
 	.Cout(Cout)
 	);
-	
-	
-	
-	
-	
-	
-	
-
-	       
-
     
 
 endmodule

@@ -16,22 +16,23 @@ module add_sub_display(
 	);
 
 	// local signals
-	//logic  Cin = 1'b0;
 	logic  Cout;
-
+    logic [3:0] L;
 	// instantiate lower-level modules
+	//is actually a 6 bit adder
 	Adder_4bit A4(
 	.A(A),
 	.B(B),
-	.Cin(select),
+	.Cin(select), //if select is high, it is also the Cin which completes
+	               //the two's compliment conversion process
 	.S(S),
 	.Cout(Cout)
 	);
 	
-	logic [3:0] L;
 	
 	// instantiate module to limit values
 	limit_val my_limit( .S(S), .L(L) );
+
 
 	// instantiate module to drive 7-segment display
 	//   (L) is a local signal

@@ -11,14 +11,20 @@ module add_sub_display_sim; //no ports to test module
     // can be the same names as the ports of the module under test
     logic [3:0] A;
     logic [3:0] B;
-    logic select;
-    logic [5:0] S;
+    logic select; //high for sub, low for add
+    logic [5:0] S; // 6 bit adder output
+    //logic [3:0] limited;
 	logic [6:0] D;
 	logic [3:0] an;
+	logic [3:0] L;
 	logic dp;
     
     //Instantiate your module undertest
-    add_sub_display my_adder_sub (.A(A), .B(B), .select(select), .S(S), .D(D), .an(an), .dp(dp));
+    add_sub_display adder_sub (.A(A), .B(B), .select(select), .S(S),
+    .D(D), .an(an), .dp(dp));
+    
+    limit_val limiter(.S(S), .L(L));
+    
 
     //list your test cases
     initial 
