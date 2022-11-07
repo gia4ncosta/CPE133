@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Fri Nov  4 15:04:56 2022
+# Process ID: 4584
+# Current directory: C:/Users/duggie/CPE133/Lab3/Lab3.runs/impl_1
+# Command line: vivado.exe -log add_sub_display.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source add_sub_display.tcl -notrace
+# Log file: C:/Users/duggie/CPE133/Lab3/Lab3.runs/impl_1/add_sub_display.vdi
+# Journal file: C:/Users/duggie/CPE133/Lab3/Lab3.runs/impl_1\vivado.jou
+# Running On: GIANCARLOAC78F9, OS: Windows, CPU Frequency: 3200 MHz, CPU Physical cores: 1, Host memory: 6436 MB
+#-----------------------------------------------------------
+source add_sub_display.tcl -notrace

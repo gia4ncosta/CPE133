@@ -1,0 +1,12 @@
+0.7
+2020.2
+Apr 18 2022
+16:05:34
+C:/Users/duggie/CPE133/Lab3/Lab3.sim/sim_1/behav/xsim/glbl.v,1649976174,verilog,,,,glbl,,uvm,,,,,,
+C:/Users/duggie/CPE133/Lab3/Lab3.srcs/sim_1/new/add_sub_display_sim.sv,1667446806,systemVerilog,,,,add_sub_display_sim,,uvm,,,,,,
+C:/Users/duggie/CPE133/Lab3/Lab3.srcs/sources_1/imports/lab3/add_sub_display.sv,1667428867,systemVerilog,,C:/Users/duggie/CPE133/Lab3/Lab3.srcs/sources_1/imports/lab3/adder_4bit.sv,,add_sub_display,,uvm,,,,,,
+C:/Users/duggie/CPE133/Lab3/Lab3.srcs/sources_1/imports/lab3/adder_4bit.sv,1667598087,systemVerilog,,C:/Users/duggie/CPE133/Lab3/Lab3.srcs/sources_1/imports/lab3/full_adder.sv,,Adder_4bit,,uvm,,,,,,
+C:/Users/duggie/CPE133/Lab3/Lab3.srcs/sources_1/imports/lab3/full_adder.sv,1667265368,systemVerilog,,C:/Users/duggie/CPE133/Lab3/Lab3.srcs/sources_1/imports/lab3/limit_val.sv,,Full_Adder,,uvm,,,,,,
+C:/Users/duggie/CPE133/Lab3/Lab3.srcs/sources_1/imports/lab3/limit_val.sv,1666996003,systemVerilog,,C:/Users/duggie/CPE133/Lab3/Lab3.srcs/sources_1/imports/lab3/seg7.sv,,limit_val,,uvm,,,,,,
+C:/Users/duggie/CPE133/Lab3/Lab3.srcs/sources_1/imports/lab3/seg7.sv,1667257110,systemVerilog,,C:/Users/duggie/CPE133/Lab3/Lab3.srcs/sim_1/new/add_sub_display_sim.sv,,seg7,,uvm,,,,,,
+C:/Users/duggie/CPE133/Lab3/Lab3.srcs/sources_1/new/MUX.sv,1667264799,systemVerilog,,C:/Users/duggie/CPE133/Lab3/Lab3.srcs/sources_1/imports/lab3/add_sub_display.sv,,MUX,,uvm,,,,,,
